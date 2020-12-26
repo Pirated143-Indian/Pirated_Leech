@@ -2,14 +2,14 @@ import os
 
 class Config(object):
     # get a token from @BotFather
-    TG_BOT_TOKEN = "1400450496:AAGpZvH95-n_KQ7x1RvuOGFK5wNepwbyoJw"
+    TG_BOT_TOKEN = "1370072830:AAH-rifBIsiW3sPyTHtWdUjXPa-aWdFhHs4"
     # The Telegram API things
-    APP_ID = 2119350
-    API_HASH ="8610b2e5dc11380f8b8005c9fcf8b3ed"
-    OWNER_ID = 1422265105
+    APP_ID = 1468557
+    API_HASH ="c05a1fff8d688c198d4665f4c08016a2"
+    OWNER_ID = 1268206396
     # Get these values from my.telegram.org
     # to store the channel ID who are authorized to use the bot
-    AUTH_CHANNEL = [-1001241558511, -1001470368690]
+    AUTH_CHANNEL = [-1001253546382, -1001331815943, -1001386365453, -1001493702344]
     # the download location, where the HTTP Server runs
     DOWNLOAD_LOCATION = "./DOWNLOADS"
     # Telegram maximum file upload size
@@ -40,21 +40,21 @@ class Config(object):
     # add offensive API
     TG_OFFENSIVE_API = os.environ.get("TG_OFFENSIVE_API", None)
     CUSTOM_FILE_NAME = os.environ.get("CUSTOM_FILE_NAME", "")
-    LEECH_COMMAND = os.environ.get("LEECH_COMMAND", "leech@DSP_LEECHY_ROBOT")
-    YTDL_COMMAND = os.environ.get("YTDL_COMMAND", "ytdl@DSP_LEECHY_ROBOT")
+    LEECH_COMMAND = os.environ.get("LEECH_COMMAND", "leech@BG_Torrent_Leecher_Robot")
+    YTDL_COMMAND = os.environ.get("YTDL_COMMAND", "ytdl@BG_Torrent_Leecher_Robot")
     RCLONE_CONFIG = os.environ.get("RCLONE_CONFIG", "")
     DESTINATION_FOLDER = os.environ.get("DESTINATION_FOLDER", "Mirror Bot")
-    GLEECH_COMMAND = os.environ.get("GLEECH_COMMAND", "gleech@DSP_LEECHY_ROBOT")
+    GLEECH_COMMAND = os.environ.get("GLEECH_COMMAND", "gleech@BG_Torrent_Leecher_Robot")
     INDEX_LINK = os.environ.get("INDEX_LINK", "")
-    TELEGRAM_LEECH_COMMAND_G = os.environ.get("TELEGRAM_LEECH_COMMAND_G", "tleech@DSP_LEECHY_ROBOT")
-    CANCEL_COMMAND_G = os.environ.get("CANCEL_COMMAND_G", "cancel@DSP_LEECHY_ROBOT")
-    GET_SIZE_G = os.environ.get("GET_SIZE_G", "getsize@DSP_LEECHY_ROBOT")
-    STATUS_COMMAND = os.environ.get("STATUS_COMMAND", "status@DSP_LEECHY_ROBOT")
-    SAVE_THUMBNAIL = os.environ.get("SAVE_THUMBNAIL", "savethumbnail@DSP_LEECHY_ROBOT")
-    CLEAR_THUMBNAIL = os.environ.get("CLEAR_THUMBNAIL", "clearthumbnail@DSP_LEECHY_ROBOT")
+    TELEGRAM_LEECH_COMMAND_G = os.environ.get("TELEGRAM_LEECH_COMMAND_G", "tleech@BG_Torrent_Leecher_Robot")
+    CANCEL_COMMAND_G = os.environ.get("CANCEL_COMMAND_G", "cancel@BG_Torrent_Leecher_Robot")
+    GET_SIZE_G = os.environ.get("GET_SIZE_G", "getsize@BG_Torrent_Leecher_Robot")
+    STATUS_COMMAND = os.environ.get("STATUS_COMMAND", "status@@BG_Torrent_Leecher_Robot")
+    SAVE_THUMBNAIL = os.environ.get("SAVE_THUMBNAIL", "savethumbnail@BG_Torrent_Leecher_Robot")
+    CLEAR_THUMBNAIL = os.environ.get("CLEAR_THUMBNAIL", "clearthumbnail@BG_Torrent_Leecher_Robot")
     UPLOAD_AS_DOC = os.environ.get("UPLOAD_AS_DOC", "True")
-    PYTDL_COMMAND_G = os.environ.get("PYTDL_COMMAND_G", "pytdl@DSP_LEECHY_ROBOT")
+    PYTDL_COMMAND_G = os.environ.get("PYTDL_COMMAND_G", "pytdl@BG_Torrent_Leecher_Robot")
     LOG_COMMAND = os.environ.get("LOG_COMMAND", "log")
-    CLONE_COMMAND_G = os.environ.get("CLONE_COMMAND_G", "gclone@DSP_LEECHY_ROBOT")
+    CLONE_COMMAND_G = os.environ.get("CLONE_COMMAND_G", "gclone@BG_Torrent_Leecher_Robot")
     UPLOAD_COMMAND = os.environ.get("UPLOAD_COMMAND", "upload")
     RENEWME_COMMAND = os.environ.get("RENEWME_COMMAND", "renewme")
