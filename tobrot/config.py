@@ -4,9 +4,9 @@ class Config(object):
     # get a token from @BotFather
     TG_BOT_TOKEN = "1370072830:AAH-rifBIsiW3sPyTHtWdUjXPa-aWdFhHs4"
     # The Telegram API things
-    APP_ID = 2119350
-    API_HASH ="8610b2e5dc11380f8b8005c9fcf8b3ed"
-    OWNER_ID = 1422265105
+    APP_ID = 1468557
+    API_HASH ="c05a1fff8d688c198d4665f4c08016a2"
+    OWNER_ID = 1268206396
     # Get these values from my.telegram.org
     # to store the channel ID who are authorized to use the bot
     AUTH_CHANNEL = [-1001253546382, -1001331815943, -1001386365453, -1001493702344]
