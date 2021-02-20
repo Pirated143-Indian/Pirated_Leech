@@ -4,7 +4,7 @@ from tobrot.sample_config import Config
 class Config(Config):
     TG_BOT_TOKEN= "1268fill---your----data"
     APP_ID = 1373938
-    API_HASH = "fill--your--data"
+    API_HASH = "c05a1fff8d688c198d4665f4c08016a2"
     OWNER_ID = 12537936
     AUTH_CHANNEL = [-10082786282972]
     DESTINATION_FOLDER = "Mirror Bot" #Name of your folder read readme(not id of the folder)
